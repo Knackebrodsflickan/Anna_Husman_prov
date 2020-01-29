@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Anna_Husman_prov
 {
-    class ClassClown
+    class ClassClown : Supervillian
     {
+        public int MaxDamage(int MaxDamage)
+        {
+            return gen.Next(60, 99);
+        }
+        public int MinDamage(int MinDamage)
+        {
+            return gen.Next(60, 99);
+        }
+
     }
 }
